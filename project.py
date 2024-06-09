@@ -1,6 +1,7 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
+# Дефолтные значения для примера
 def solve_and_plot(m=1.0, p=0.5, k=4.0, y0=1.0, v0=0.0, t0=0.0, tf=10.0, dt=0.01):
     initial_conditions = [y0, v0]
     t = np.arange(t0, tf, dt)
